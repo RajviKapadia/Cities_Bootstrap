@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CITY</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<script src="https://kit.fontawesome.com/01aa7f4e33.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="cities.css">
+</head>
+<body>
+	<nav id="Navbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
+	  <a href="" class="navbar-brand nav-link">Top 5 Cities To Live!</a>
+	</nav>
+	
+	<section class="container-fluid px-0">
+		<!-- div1 -->
+		<div class="row align-items-center content">
+			<div class="col-md-6">
+				<img src="images/vienna.jpg" class="img-fluid">
+			</div>
+			<div class="col-md-6 text-center">
+				<div class="row justify-content-center">
+					<div class="col-10 col-lg-8 mb-4 mb-md-0 text">
+						<h2>Vienna, Austria</h2>
+						<p>Austria's Imperial capital offers a unique blend of imperial traditions and stunning modern architecture. It is famous for its cultural events, imperial sights, coffee houses, cozy wine taverns, and the very special Viennese charm.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- div2 -->
+		<div class="row align-items-center content">
+			<div class="col-md-6 text-center order-2 order-md-1">
+				<div class="row justify-content-center">
+					<div class="col-10 col-lg-8 mb-4 mb-md-0 text">
+						<h2> Zurich, Switzerland</h2>
+						<p>Zurich is an upmarket banking city and the financial capital of Switzerland. It, therefore, comes as no surprise that it's often labelled as the most expensive city in the world. Zurich is famous for luxurious lifestyles, high-end shopping, and fancy chocolates.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 order-1 order-md-2">
+				<img src="images/zurich.jpg" class="img-fluid">
+			</div>
+		</div>
+		<!-- div3 -->
+		<div class="row align-items-center content">
+			<div class="col-md-6">
+				<img src="images/auckland.jpg" class="img-fluid">
+			</div>
+			<div class="col-md-6 text-center">
+				<div class="row justify-content-center">
+					<div class="col-10 col-lg-8 mb-4 mb-md-0 text">
+						<h2>Auckland, New Zealand</h2>
+						<p>Auckland is lucky to be home to wonderful waters with unbeatable landscapes and unique wildlife that frequently make it to the big screen. These picture perfect waters are also why Auckland is known as the world's best city for yacht lovers.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- div4 -->
+		<div class="row align-items-center content">
+			<div class="col-md-6 text-center order-2 order-md-1">
+				<div class="row justify-content-center">
+					<div class="col-10 col-lg-8 mb-4 mb-md-0 text">
+						<h2>Munich, Germany</h2>
+						<p>Munich, the capital and most populous city of Bavaria, is known for its architecture, fine culture, the annual Oktoberfest beer celebration, its vibrant cultural scene and its museums.The food/beer, history, even the lederhosen – make it a one-of-a-kind experience.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 order-1 order-md-2">
+				<img src="images/munich.jpg" class="img-fluid">
+			</div>
+		</div>
+		<!-- div5 -->
+		<div class="row align-items-center">
+			<div class="col-md-6">
+				<img src="images/vancouver.jpg" class="img-fluid">
+			</div>
+			<div class="col-md-6 text-center">
+				<div class="row justify-content-center">
+					<div class="col-10 col-lg-8 mb-4 mb-md-0 text">
+						<h2>Vancouver, Canada</h2>
+						<p>Vancouver has amazing natural beauty, clean streets, amazing food/restaurants, amazing nightlife, a diverse population of ethnicities, the ocean, the warm and mild weather.It is famous for its fresh, local seafood, especially its salmon.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+	<script>
+		$(function() {
+			$(document).scroll(function(){
+				var $nav=$("#Navbar");
+				$nav.toggleClass("scrolled", $(this).scrollTop()>$nav.height())
+			})
+		})
+	</script>
+</body>
+</html>
