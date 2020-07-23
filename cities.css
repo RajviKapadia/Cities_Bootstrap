@@ -4,7 +4,9 @@ body{
 	background: linear-gradient(to right, #ff9496, #70e1f5);
 	font-family: 'Nunito', sans-serif;
 }
-
+.row{
+	margin-right: 0;
+}
 h2{
 	color: #EA1C2C;
 	font-weight: 100;
@@ -18,7 +20,7 @@ p{
 	line-height: 2; 
 }
 .text{
-	margin-top: 100px;
+	margin-top: 50px;
 }
 .content{
 	margin-bottom: 100px;
@@ -35,9 +37,9 @@ p{
 	color: white;
 	}
 #Navbar .nav-link:hover{
-	color: #EA1C2C;
+	color: #860a14;
 	}
 .navbar.scrolled{
-	background: #D4D3DD;
+	background: #a976a3;
 	transition: background 500ms;
 }
